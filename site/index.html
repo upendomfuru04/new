@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+	<title>getvalue</title>
+</head>
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+footer {
+   width:100%;
+   background-color:#33383c;
+    min-height:250px; 
+    padding:10px 0px 15px 0px ;
+}
+
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 150px;
+}
+
+.subscribe-form {
+	width: 60%;
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #d6bd70;
+    padding: 13px 20px;
+    border: 1px solid block;
+    top: 0;
+}
+
+.footer-heading {
+    letter-spacing: 1px;
+}
+ul{
+	display:table; 
+	margin:15px auto 0 auto;
+	 list-style-type:none;
+}
+
+ul li{
+	padding-left:10px;
+	 padding-top:8px;
+	  float:left;
+}
+ul li a{
+	 color:#CCC; 
+	  padding:4px;
+}
+.container {
+  box-sizing: border-box;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 92%;
+  padding: 10px;
+}
+
+
+
+ .flex-container2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #231f20;
+}
+
+.flex-container2 > div {
+  margin: 10px;
+  text-align: left;
+
+}
+.product-price{
+    color: white;
+
+}
+.flex-container2:hover{
+   border: 2px;
+   box-shadow:  0 4px 8px 0 rgba(0 ,0 ,0 ,0.2);
+}
+.product-title h5 a{
+    text-decoration: none;
+    color: white;
+}
+
+ 
+    .our-webcoderskull{
+  background:#005b99;
+  
+}
+.our-webcoderskull .cnt-block{  
+   width:90%; 
+   background:#fff; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+}
+.our-webcoderskull .cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+    color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+    color:#337ab7;
+}
+.our-webcoderskull .cnt-block p{ 
+   color:#2a2a2a; 
+   font-size:13px; 
+   line-height:20px; 
+   font-weight:400;
+}
+.gaston-article{
+    text-align: left;
+    color: white;
+}
+
+
+
+
+            img {
+    max-width: 100%;
+    height: auto;
+}
+        section {
+            padding: 40px 0;
+        }
+ ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+.contact-area {
+    border-bottom: 1px solid #353C46;
+}
+
+.contact-content p {
+    font-size: 15px;
+    margin: 30px 0 60px;
+    position: relative;
+}
+
+.contact-content p::after {
+    background: #353C46;
+    bottom: -30px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+.contact-content h6 {
+    color: #8b9199;
+    font-size: 15px;
+    
+    margin-bottom: 10px;
+}
+.contact-content h6 a {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 2px;
+
+}
+
+.contact-content span {
+    color: #353c47;
+    margin: 0 5px;
+    font-weight: 400;
+}
+
+.contact-social {
+    margin-top: 20px;
+}
+
+.contact-social > ul {
+    display: inline-flex;
+}
+
+.contact-social ul li a {
+    color: #8b9199;
+    display: inline-block;
+    height: 50px;
+    padding-top: 2px;
+    transition: all 0.4s ease 0s;
+    width: 30px;
+    font-size: 22px;
+}
+
+
+
+.contact-content img {
+    max-width: 210px;
+}
+
+section, .g {
+    background: #000000;
+    color: #868c96;
+}
+
+.g p {
+    text-align: center;
+}
+
+.g img {
+    width: 54px;
+}
+
+
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.carousel{
+    background: white;
+    margin-top: 20px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; 
+}
+.button {
+   border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 36px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+</style>
+
+<body>
+<div class="topnav">
+  <a href="#"><i class="fa fa-phone" aria-hidden="true" style="color:white;"></i> +255 717 568 861</a>
+
+    <a href="#" class="icon">
+    <i style="color:white;" class="fa fa-sign-in" aria-hidden="true"></i> Sign In</a>
+</div>
+
+<img style="width:290px;" src="logo.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-lg my-3">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+       <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.getvalue.co/media/products/guide_to_success_08032020_04_24.png" alt="First Slide">
+                <h3 class="text-center">
+                <a href="" style="color:black;">
+               MWONGOZO KATIKA MAFANIKIO                                       </a>
+                 </h3>
+         <div class="description text-center">
+     Kila mmoja ana tafsiri tofauti kuhusu mafanikio na wengine wameenda mbali kwa kutafsiri mafanikio kwa namna wao wanavyoona wengine wanasema,lakini mafanikio ni nini? je ni kuwa na hela nyingi? Ni kuwa na familia bora ambayo ina mchango katika maisha yako? Mafanikio ni nini haswa? Twende pamoja katika kitabu cha MWONGOZO KATIKA MAFANIKIO kupata ukweli huu wa maana halisi ya Mafanikio na namna ya kuyapata.                                     
+        <br><span class="stars-container stars-23" style="color:#d6bd70; size: 10px;">★★★★★</span> (4.5)
+                                    </div>
+                                    
+     <div class="price text-center"style="font-size: 28px;">10000 <small>Tsh.</small>
+        <br>
+      <button class="btn default"><i class="fa fa-cart-plus" aria-hidden="true"></i>  Buy Now</button>
+      <button class="btn default"><i class="fa fa-info-circle" aria-hidden="true"></i> Preview</button> 
+
+     </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.getvalue.co/media/products/200_awaiking_tips_08032020_04_54.JPG" alt="Second Slide">
+                 <h3 class="text-center">
+                                        <a href="" style="color:black;">
+                                            200 Awakening Tips                                      </a>
+                                    </h3>
+                                    <div class="description text-center">
+                                        Sample Text                                     
+                                        <br><span class="stars-container stars-23" style="color:#d6bd70; size: 10px;">★★★★★</span> (4.5)
+                                    </div>
+                                    
+                                    <div class="price text-cente" style="font-size: 28px;">15000 <small>Tsh.</small>
+                                          <br>
+      <button class="btn default"><i class="fa fa-cart-plus" aria-hidden="true"></i>  Buy Now</button>
+      <button class="btn default"><i class="fa fa-info-circle" aria-hidden="true"></i> Preview</button> 
+
+                                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.getvalue.co/media/products/why_i_hate_being_an_employee_15042020_12_57.jpg" alt="Third Slide">
+                <h3 class="text-center" >
+                                        <a href="" style="color:black;">
+                                            Why I Hate Being An Employee                                        </a>
+                                    </h3>
+                                    <div class="description text-center">
+                                        Don’t switch jobs; start your own business                                      
+                                        <br><span class="stars-container stars-23" style="color:#d6bd70; size: 10px;">★★★★★</span> (4.5)
+                                    </div>
+                                    
+                                    <div class="price text-center" style="font-size: 28px;">25000 <small>Tsh.</small>
+                                          <br>
+      <button class="btn default"><i class="fa fa-cart-plus" aria-hidden="true"></i>  Buy Now</button>
+      <button class="btn default"><i class="fa fa-info-circle" aria-hidden="true"></i> Preview</button> 
+
+                                    </div>
+            </div>
+        <div class="carousel-item">
+                <img src="https://www.getvalue.co/media/products/200_awaiking_tips_08032020_04_54.JPG" alt="Second Slide">
+                 <h3 class="text-center">
+                                        <a href="" style="color:black;">
+                                            200 Awakening Tips                                      </a>
+                                    </h3>
+                                    <div class="description text-center">
+                                        Sample Text                                     
+                                        <br><span class="stars-container stars-23" style="color:#d6bd70; size: 10px;" >★★★★★</span> (4.5)
+                                    </div>
+                                    
+                                    <div class="price text-cente" style="font-size: 28px;">15000 <small>Tsh.</small>
+                                          <br>
+      <button class="btn default"><i class="fa fa-cart-plus" aria-hidden="true"></i>  Buy Now</button>
+      <button class="btn default"><i class="fa fa-info-circle" aria-hidden="true"></i> Preview</button> 
+
+
+                                    </div>
+            </div>
+            <div class="carousel-item">
+               <img src="https://www.getvalue.co/media/products/why_i_hate_being_an_employee_15042020_12_57.jpg" alt="Third Slide">
+                <h3 class="text-center">
+                                        <a href="" style="color:black;">
+                                            Why I Hate Being An Employee                                        </a>
+                                    </h3>
+                                    <div class="description text-center">
+                                        Don’t switch jobs; start your own business                                      
+                                        <br><span class="stars-container stars-23" style="color:#d6bd70; size: 10px;">★★★★★</span> (4.5)
+                                    </div>
+                                    
+                                    <div class="price text-center" style="font-size: 28px;">25000 <small>Tsh.</small>
+                                          <br>
+      <button class="btn default"><i class="fa fa-cart-plus" aria-hidden="true"></i>  Buy Now</button>
+      <button class="btn default"><i class="fa fa-info-circle" aria-hidden="true"></i> Preview</button> 
+
+
+                                    </div>
+            </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+
+
+
+<div class="main">
+<h2>EBOOKS</h2>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="https://www.getvalue.co/media/products/jinsi_ake:_jinsia_ya_kike_02062021_10_54.jpeg" style="width:100%">
+      <h3>Jinsi Ake: Jinsia Ya Kike</h3>
+      <p class="price">10,000 <small>Tsh.</small></p>
+      <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Miss Lukleshia Kulindwa.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/maombi_ya_kuvunja_vizuizi_30052021_10_34.jpeg" style="width:100%">
+  <h4>Maombi Ya Kuvunja Vizuizi</h4>
+  <p class="price">10,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+  <p>Sold by <span style="color: #d6bd60"> ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/mateso_31052021_12_03.jpeg" style="width:100%">
+ <h4>MATESO</h4>
+  <p class="price">6,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Musa Ngonyani.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="https://www.getvalue.co/media/products/agano_la_ulithi_31052021_12_00.jpeg"  style="width:100%">
+  <h4>Agano La Ulithi</h4>
+  <p class="price">7,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+<p>Sold by <span style="color: #d6bd60">ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/mateso_31052021_12_03.jpeg" style="width:100%">
+ <h4>MATESO</h4>
+  <p class="price">6,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Musa Ngonyani.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://www.getvalue.co/media/products/jinsi_ake:_jinsia_ya_kike_02062021_10_54.jpeg" style="width:100%">
+      <h3>Jinsi Ake: Jinsia Ya Kike</h3>
+      <p class="price">10,000 <small>Tsh.</small></p>
+      <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Miss Lukleshia Kulindwa.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/maombi_ya_kuvunja_vizuizi_30052021_10_34.jpeg" style="width:100%">
+  <h4>Maombi Ya Kuvunja Vizuizi</h4>
+  <p class="price">10,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+  <p>Sold by <span style="color: #d6bd60"> ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="https://www.getvalue.co/media/products/agano_la_ulithi_31052021_12_00.jpeg"  style="width:100%">
+  <h4>Agano La Ulithi</h4>
+  <p class="price">7,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+<p>Sold by <span style="color: #d6bd60">ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/mateso_31052021_12_03.jpeg" style="width:100%">
+ <h4>MATESO</h4>
+  <p class="price">6,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Musa Ngonyani.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://www.getvalue.co/media/products/jinsi_ake:_jinsia_ya_kike_02062021_10_54.jpeg" style="width:100%">
+      <h3>Jinsi Ake: Jinsia Ya Kike</h3>
+      <p class="price">10,000 <small>Tsh.</small></p>
+      <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Miss Lukleshia Kulindwa.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/maombi_ya_kuvunja_vizuizi_30052021_10_34.jpeg" style="width:100%">
+  <h4>Maombi Ya Kuvunja Vizuizi</h4>
+  <p class="price">10,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+  <p>Sold by <span style="color: #d6bd60"> ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="https://www.getvalue.co/media/products/agano_la_ulithi_31052021_12_00.jpeg"  style="width:100%">
+  <h4>Agano La Ulithi</h4>
+  <p class="price">7,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+<p>Sold by <span style="color: #d6bd60">ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/mateso_31052021_12_03.jpeg" style="width:100%">
+ <h4>MATESO</h4>
+  <p class="price">6,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Musa Ngonyani.</span></p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home"><h4>TRENDING</h4></a></li>
+                        <li><a data-toggle="tab" href="#menu1"><h4>BEST SELLERS</h4></a></li>
+                    </ul>
+                    <br>
+                    <div class="tab-content trending">
+                        <div id="home" class="tab-pane fade in active">
+                            <ul style="text-align:left;">
+              <li><a href="#"  style="color:black;">NCHI YA USAMBARA</a></li>
+              <hr>
+             <li><a href="#" style="color:black;">UGONJWA WA CORONA</a></li>
+             <hr>
+            <li><a href="#" style="color:black;">Mwanachuo Diary: Namna Unavyoweza Kufanikiwa Kimaisha Kuanzia Chuoni</a></li>
+                                                            </ul>
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                           
+                   <div class="spost clearfix">
+                                        <div class="entry-image popular">
+                                            <a href="#"><img src="https://www.getvalue.co/media/products/nchi_ya_usambara_24112020_04_11.jpg" alt="" style="width:50%"></a>
+                                        </div>
+                                        <div class="entry-c">
+                                            <div class="entry-title">
+                                                <h4><a href="#">NCHI YA USAMBARA</a></h4>
+                                            </div>
+                                            <ul class="entry-meta">
+                                                <li class="color">12,000 Tsh.</li>
+                                                <p>
+                                                    <div class="product-rating">
+                                                         
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                                                  </div>
+                                                </p>
+                 <p>Sold by: <a href="#">Germano Mbelwa</a></p>
+                                            </ul>
+                                        </div>
+                                    </div>
+                              <div class="spost clearfix">
+                    <div class="entry-image popular">
+            <a href="#"><img src="https://www.getvalue.co/media/products/ugonjwa_wa_corona_26032020_09_04.jpg" alt="" style="width:50%"></a>
+                                        </div>
+                                 <div class="entry-c">
+                                            <div class="entry-title">
+                      <h4><a href="#">UGONJWA WA CORONA</a></h4>
+                                            </div>
+                                            <ul class="entry-meta">
+                                                <li class="color">3,000 Tsh.</li>
+                                                <p>
+                        <div class="product-rating">
+      <span class="star_rated"><i class="fa fa-star xstxt"></i></span><span class="star_rated"><i class="fa fa-star xstxt"></i></span><span class="star_rated"><i class="fa fa-star xstxt"></i></span><span class="star_rated"><i class="fa fa-star xstxt"></i></span><span class="star_rated"><i class="fa fa-star xstxt"></i></span> (11)                                                   </div>
+                                                </p>
+      <p>Sold by: <a href="https://www.getvalue.co/home/seller_collection/138">Jeremia Pyuza</a></p>
+                                            </ul>
+                                        </div>
+                                    </div>
+           <div class="spost clearfix">
+     <div class="entry-image popular">
+     <a href="#"><img src="https://www.getvalue.co/media/products/mwanachuo_diary:_namna_unavyoweza_kufanikiwa_kimaisha_kuanzia_chuoni_23082020_08_28.jpeg" alt="" style="width:50%"></a>
+                                        </div>
+                 <div class="entry-c">
+                 <div class="entry-title">
+            <h4><a href="#">Mwanachuo Diary: Namna Unavyoweza Kufanikiwa Kimaisha Kuanzia Chuoni</a></h4>
+                                            </div>
+                                            <ul class="entry-meta">
+                                                <li class="color">20,000 Tsh.</li>
+                                                <p>
+                                                    <div class="product-rating">
+                                                         
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                                                  </div>
+                                                </p>
+                 <p>Sold by: <a href="#">Lackson Tungaraza</a></p>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+
+
+
+
+
+
+<br>
+<b><h3>INSIDER'S POPULAR POST</h3></b>
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/why_i_don’t_want_a_job_21032020_03_04.jpg" alt="" style="width:100%;">
+  <div class="content">
+     <p >   Why I Don’t Want A Job <br> 
+<small><i class="fa fa-eye"></i> 4555 </small>
+<small><i class="fa fa-comments-o"></i> 2</small>
+                                        </p>
+  </div>
+</div>
+<br>
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/i_don’t_sell_my_time_i_sell_value_to_the_marketplace_21032020_03_02.jpg" alt="" style="width:100%;">
+  <div class="content">
+     <p>    I Don’t Sell My Time; I Sell Value To The Marketplace <br> 
+                                            <small><i class="fa fa-eye"></i> 1019 </small>
+                                            <small><i class="fa fa-comments-o"></i> 0</small>
+                                        </p>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/darasa_la_kuandika_ebook_za_biashara_na_ujasiriamali_19102020_05_29.jpg" alt="" style="width:100%;">
+  <div class="content">
+     <p>
+                        
+                                            DARASA LA KUANDIKA EBOOK ZA BIASHARA NA UJASIRIAMALI <br> 
+                                            <small><i class="fa fa-eye"></i> 849 </small>
+                                            <small><i class="fa fa-comments-o"></i> 0</small>
+                                        </p>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/why_who_you_are,_is_more_important_than_what_you_do_21032020_02_58.jpg" alt="" style="width:100%;">
+  <div class="content">
+    <p> Why Who You Are, Is More Important Than What You Do <br> <small><i class="fa fa-eye"></i> 709 </small>
+     <small><i class="fa fa-comments-o"></i> 2</small>
+                                        </p>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/how_billionaires_think_21032020_03_00.jpeg" alt="" style="width:100%;">
+  <div class="content">
+      <p>
+                        
+                    
+                                            How Billionaires Think <br> 
+                                            <small><i class="fa fa-eye"></i> 588 </small>
+                                            <small><i class="fa fa-comments-o"></i> 3</small>
+                                        </p>
+  </div>
+</div>
+
+<br>
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/why_entrepreneurship_is_more_of_an_emotional_decision_than_a_logical_one_21032020_02_54.jpeg" alt="" style="width:100%;">
+  <div class="content">
+      <p>
+  Why Entrepreneurship Is More of An Emotional Decision Than A Logical One <br> <small><i class="fa fa-eye"></i> 554 </small>
+     <small><i class="fa fa-comments-o"></i> 0</small>
+                                        </p>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/why_i_think_there_are_a_lot_of_business_ideas_out_there_15032020_12_35.jpeg" alt="" style="width:100%;">
+  <div class="content">
+      <p >   Why I Think There Are A Lot Of Business Ideas Out There <br> 
+                                            <small><i class="fa fa-eye"></i> 512 </small>
+                                            <small><i class="fa fa-comments-o"></i> 0</small>
+                                        </p>
+  </div>
+</div>
+<br>
+
+<div class="main">
+<h2>AUDIOBOOKS</h2>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="https://www.getvalue.co/media/products/jinsi_ake:_jinsia_ya_kike_02062021_10_54.jpeg" style="width:100%">
+      <h3>Jinsi Ake: Jinsia Ya Kike</h3>
+      <p class="price">10,000 <small>Tsh.</small></p>
+      <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Miss Lukleshia Kulindwa.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/maombi_ya_kuvunja_vizuizi_30052021_10_34.jpeg" style="width:100%">
+  <h4>Maombi Ya Kuvunja Vizuizi</h4>
+  <p class="price">10,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+  <p>Sold by <span style="color: #d6bd60"> ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/mateso_31052021_12_03.jpeg" style="width:100%">
+ <h4>MATESO</h4>
+  <p class="price">6,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Musa Ngonyani.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="https://www.getvalue.co/media/products/agano_la_ulithi_31052021_12_00.jpeg"  style="width:100%">
+  <h4>Agano La Ulithi</h4>
+  <p class="price">7,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+<p>Sold by <span style="color: #d6bd60">ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/mateso_31052021_12_03.jpeg" style="width:100%">
+ <h4>MATESO</h4>
+  <p class="price">6,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Musa Ngonyani.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://www.getvalue.co/media/products/jinsi_ake:_jinsia_ya_kike_02062021_10_54.jpeg" style="width:100%">
+      <h3>Jinsi Ake: Jinsia Ya Kike</h3>
+      <p class="price">10,000 <small>Tsh.</small></p>
+      <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Miss Lukleshia Kulindwa.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/maombi_ya_kuvunja_vizuizi_30052021_10_34.jpeg" style="width:100%">
+  <h4>Maombi Ya Kuvunja Vizuizi</h4>
+  <p class="price">10,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+  <p>Sold by <span style="color: #d6bd60"> ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="https://www.getvalue.co/media/products/agano_la_ulithi_31052021_12_00.jpeg"  style="width:100%">
+  <h4>Agano La Ulithi</h4>
+  <p class="price">7,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+<p>Sold by <span style="color: #d6bd60">ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/mateso_31052021_12_03.jpeg" style="width:100%">
+ <h4>MATESO</h4>
+  <p class="price">6,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Musa Ngonyani.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://www.getvalue.co/media/products/jinsi_ake:_jinsia_ya_kike_02062021_10_54.jpeg" style="width:100%">
+      <h3>Jinsi Ake: Jinsia Ya Kike</h3>
+      <p class="price">10,000 <small>Tsh.</small></p>
+      <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Miss Lukleshia Kulindwa.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/maombi_ya_kuvunja_vizuizi_30052021_10_34.jpeg" style="width:100%">
+  <h4>Maombi Ya Kuvunja Vizuizi</h4>
+  <p class="price">10,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+  <p>Sold by <span style="color: #d6bd60"> ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="https://www.getvalue.co/media/products/agano_la_ulithi_31052021_12_00.jpeg"  style="width:100%">
+  <h4>Agano La Ulithi</h4>
+  <p class="price">7,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+<p>Sold by <span style="color: #d6bd60">ELIAS MBUJILO JOSEPH.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="https://www.getvalue.co/media/products/mateso_31052021_12_03.jpeg" style="width:100%">
+ <h4>MATESO</h4>
+  <p class="price">6,000 <small>Tsh.</small></p>
+  <div style="color:#e4e6ec;" class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+ <p>Sold by <span style="color: #d6bd60"> Musa Ngonyani.</span></p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+</div>
+
+
+
+<br>
+<br>
+
+<b><h3>CONTRIBUTOR'S POPULAR POST</h3></b>
+<br>
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/that’s_weird…but_i_like_it!_21032020_02_26.jpg" alt="" style="width:100%;">
+  <div class="content">
+     <p>That’s Weird…But I Like It! <br> 
+     <small><i class="fa fa-eye"></i> 5715 </small>
+    <small><i class="fa fa-comments-o"></i> 2</small>
+                                        </p>
+  </div>
+</div>
+<br>
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/why_i’m_not_here_to_judge_you_or_tell_you_how_to_live_your_life_21032020_02_29.jpeg" alt="" style="width:100%;">
+  <div class="content">
+        <p>  Why I’m Not Here To Judge You Or Tell You How To Live Your Life <br> 
+        <small><i class="fa fa-eye"></i> 3958 </small>
+          <small><i class="fa fa-comments-o"></i> 0</small>
+                                        </p>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/why_entrepreneurship_isn’t_real_about_starting_your_own_business_21032020_02_33.jpeg" alt="" style="width:100%;">
+  <div class="content">
+    <p>Why Entrepreneurship Isn’t Real About Starting Your Own Business <br> <small><i class="fa fa-eye"></i> 3633 </small>
+    <small><i class="fa fa-comments-o"></i> 0</small>
+                                        </p>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/why_i_need_you_to_quit_your_day_job_21032020_02_42.jpeg" alt="" style="width:100%;">
+  <div class="content">
+    <p>
+                                            Why I Need You To Quit Your Day Job <br> 
+                                            <small><i class="fa fa-eye"></i> 1515 </small>
+                                            <small><i class="fa fa-comments-o"></i> 0</small>
+                                        </p>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/i_am_not_a_bad_person,_i_am_a_bad_employee_21032020_02_43.jpeg" alt="" style="width:100%;">
+  <div class="content">
+     <p>
+                                            I Am Not A Bad Person, I Am A Bad Employee <br> 
+                                            <small><i class="fa fa-eye"></i> 1297 </small>
+                                            <small><i class="fa fa-comments-o"></i> 10</small>
+                                        </p>
+</div>
+</div>
+
+<br>
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/why_most_employees_stay_employees_forever_21032020_02_39.jpg" alt="Why Most Employees Stay Employees Forever" alt="" style="width:100%;">
+  <div class="content">
+     <p>
+                                            Why Most Employees Stay Employees Forever <br> 
+                                            <small><i class="fa fa-eye"></i> 887 </small>
+                                            <small><i class="fa fa-comments-o"></i> 0</small>
+                                        </p>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <img src="https://www.getvalue.co/media/blog/why_i_hate_being_an_employee_21032020_02_31.jpeg" alt="" style="width:100%;">
+  <div class="content">
+      <p>
+                                            Why I Hate Being An Employee <br> 
+                                            <small><i class="fa fa-eye"></i> 692 </small>
+                                            <small><i class="fa fa-comments-o"></i> 0</small>
+                                        </p>
+  </div>
+</div>
+<br>
+
+
+
+
+
+
+
+<div class="flex-container2">
+     <h3 style="color:white; padding-left: 12px;">ONLINE TRAININGS & PROGRAMS</h3>
+  <div>
+<div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/sequence_and_series_10062021_05_42.png" alt="" style="width:120%; height:180px;" ></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">SEQUENCE AND SERIES</a></h5></div>
+                        <div class="product-price">1,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">SEMEO NESTORY JOHN</a></p>
+                    </div>
+  </div>
+  <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/exponents_09062021_11_38.png" alt=""style="width:120%; height:180px;"></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">EXPONENTS</a></h5></div>
+                        <div class="product-price">1,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">SEMEO NESTORY JOHN</a></p>
+                    </div></div>
+  <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/algebra-part_1_10062021_06_04.png" alt=""style="width:120%; height:180px;" ></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">ALGEBRA</a></h5></div>
+                        <div class="product-price">1,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">SEMEO NESTORY JOHN</a></p>
+                    </div></div>
+  <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/jifunze_kinanda_20052021_11_10.jpg" alt="" style="width:120%; height:180px;" ></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">JIFUNZE KINANDA</a></h5></div>
+                        <div class="product-price">25,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">Sabas Patrick</a></p>
+                    </div></div>
+  <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/start_and_grow_your_business_09052021_06_16.jpg" alt="" style="width:120%; height:180px;" ></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">START AND GROW YOUR BUSINESS</a></h5></div>
+                        <div class="product-price">5,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                            <span class="star_rated"><i class="fa fa-star xstxt"></i></span><span class="star_unrated"><i class="fa fa-star xstxt"></i></span><span class="star_unrated"><i class="fa fa-star xstxt"></i></span><span class="star_unrated"><i class="fa fa-star xstxt"></i></span><span class="star_unrated"><i class="fa fa-star xstxt"></i></span> (1)                        </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">Rodrick Nabe</a></p>
+                    </div></div>
+  <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/wall_chart_19022021_02_43.jpg" alt="" style="width:120%; height:180px;" ></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">WALL CHART</a></h5></div>
+                        <div class="product-price">5,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">HURUMA JOSEPH</a></p>
+                    </div></div>
+  <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/the_last_ship_02112020_01_53.jpeg" alt="" style="width:120%; height:180px;" ></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">The Last Ship</a></h5></div>
+                        <div class="product-price">300 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">Gaston Ngailo</a></p>
+                    </div></div>
+  <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/which_capital_do_you_luck_01102020_01_43.jpeg" alt="" style="width:120%; height:180px;"></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">Which Capital Do You Luck?</a></h5></div>
+                        <div class="product-price">20,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">Gaston Ngailo</a></p>
+                    </div></div>
+  <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/jinsi_ya_kutengeneza_facebook_ads_29092020_01_38.png" alt="" style="width:120%; height:180px;"></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">JINSI YA KUTENGENEZA FACEBOOK ADS</a></h5></div>
+                        <div class="product-price">55,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">PIUS JUSTUS</a></p>
+                    </div></div> 
+   <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/mafuta_ya_watoto_25092020_10_05.png" alt="" style="width:120%; height:180px;"></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">MAFUTA YA WATOTO</a></h5></div>
+                        <div class="product-price">2,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#">PIUS JUSTUS</a></p>
+                    </div></div>
+  <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/sabuni_za_magadi_27092020_10_52.png" alt="" style="width:120%; height:180px;"></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">SABUNI ZA MCHE NA MAGADI</a></h5></div>
+                        <div class="product-price">25,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">PIUS JUSTUS</a></p>
+                    </div></div>
+   <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/things_we_don’t_learn_at_school_01062020_03_25.jpeg" alt="" style="width:120%; height:180px;"></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">MAMBO AMBAYO HATUJIFUNZI SHULENI</a></h5></div>
+                        <div class="product-price">10,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60">Rodrick Nabe</a></p>
+                    </div></div>
+  <div><div class="product-image">
+                        <a href="#"><img src="https://www.getvalue.co/media/products/learn_through_my_life_28052020_08_53.jpeg" alt="" style="width:120%; height:180px;"></a>
+                    </div>
+                    <div class="product-desc">
+                        <div class="product-title"><h5><a href="#">Learn Through My Life</a></h5></div>
+                        <div class="product-price">1,000 <small>Tsh.</small></div>
+                        <div class="product-rating">
+                             
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>
+                    <span class="star_unrated"><i class="fa fa-star xstxt"></i></span>                      </div>
+                        <p>Sold by: <a href="#" style="color: #d6bd60" >Gaston Ngailo</a></p>
+                    </div></div> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="our-webcoderskull padding-lg">
+  <div class="container">
+    <div class="row heading heading-icon">
+        <h3 style="color:white; padding-left: 12px;">FEATURED INSIDERS & CONTRIBUTORS</h3>
+    </div>
+    <ul class="row">
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="https://www.getvalue.co/media/seller_avatars/default.png" class="img-responsive" alt=""></figure>
+            <h3><a href="http://www.webcoderskull.com/">Eliudi Mwakamela</a></h3>
+            <p style="color: #d6bd70;">Insider</p>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="https://www.getvalue.co/media/seller_avatars/default.png" class="img-responsive" alt=""></figure>
+            <h3><a href="#">Kingi Kigongo</a></h3>
+            <p style="color: #d6bd70;">Insider</p>
+           
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="https://www.getvalue.co/media/seller_avatars/default.png" class="img-responsive" alt=""></figure>
+            <h3><a href="http://www.webcoderskull.com/">Eliezer Gama</a></h3>
+            <p style="color: #d6bd70;">Insider</p>
+            
+          </div>
+       </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="https://www.getvalue.co/media/seller_avatars/default.png" class="img-responsive" alt=""></figure>
+            <h3><a href="http://www.webcoderskull.com/">Patroba Jonathan</a></h3>
+            <p style="color: #d6bd70;">Contributor</p>
+          </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<div style="">
+  <div class="gaston" style="background: #081f2c;">
+                        
+            <div class="container-fluid clearfix" style="color:midnightblue">
+                
+                    <div class="col-md-4">
+                                    
+                        <b><h4 style="text-align: left; color: white; font-size: 25px;">February Issue</h4>
+
+                            <hr style="width:80%; height:80px;">
+                                    
+                        <p style="text-align: right; color: white;">see inside >></p></b>
+
+                        <img src="https://www.getvalue.co/media/book-cover.jpg" class="img-responsive" alt="">
+                        <br>
+
+                        <a href="#" class="btn btn-success" style="float:left;background-color:  #d6bd60; width: 25%;
+  font-size: 15px; "><i class="icon-shopping-cart"></i> BUY</a>
+
+                        <a href="#" class="btn btn-success" style="float: right; background-color: #d6bd60; width: 30%;
+  font-size: 15px;">MORE</a>
+
+                    </div>
+                    <br>
+
+<br>
+<br>
+
+                    <div class="col-md-8">
+                                                <div class="gaston-article" >
+                           <b><h4>That’s Weird…But I Like It!</h4></b> 
+                            <!-- <p></p> -->
+                            <p>My girlfriend and I neither of us have jobs! Therefore, we have been entrepreneurs for quite a while. I do remember that, one day we spent a real long time</p>
+                            <a href="#" class="btn btn-success" style="background:  #d6bd60; width: 30%;
+  font-size: 15px;">Read more</a>
+                        </div>
+                        <hr>
+                                                <div class="gaston-article">
+                           <b> <h4>Why I Don’t Want A Job</h4></b>
+                            <!-- <p></p> -->
+                            <p>There are a lots of common reasons why most people start their own businesses but if you look at them very closely you will discover that they all stems in</p>
+                            <a href="#" class="btn btn-success" style="background:  #d6bd60; width: 30%;
+  font-size: 15px;">Read more</a>
+                        </div>
+                        <hr>
+                                                <div class="gaston-article">
+                           <b> <h4>Why I’m Not Here To Judge You Or Tell You How To Live Your Life</h4></b>
+                            <!-- <p></p> -->
+                            <p>Being a good entrepreneur does not necessarily mean you can start talking about yourself all the time and everyone will listen – but is quite the opposite. You need to</p>
+                            <a href="#" class="btn btn-success" style="background:  #d6bd60; width: 30%;
+  font-size: 15px;">Read more</a>
+  <br>
+          <br>
+                        </div>
+                                            </div>
+
+            </div>
+
+        </div>
+          </div>
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+	<img src="logo.png" class="img-fluid" alt="logo">
+	<center>
+<h6 class="footer-heading text-uppercase text-white">JOIN OUR NETWORK</h6>
+
+<p class="footer-heading  text-white">Get our best advice of the week direct to your inbox</p>
+	<center> <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button>Subscribe</button>
+                                </form>
+                            </div></center> 
+<div class="container">
+<ul>
+<li><a href="#">Customer Support|</a></li>
+<li><a href="#">Self Help Center|</a></li>
+<li><a href="#">GetValue TV|</a></li>
+<li><a href="#">Sell On GetValue|</a></li>
+	<li><a href="#">Become an Affiliate|</a></li>
+<li><a href="#">Contact Us|</a></li>
+<li><a href="#">About GetValue </a></li>
+</ul>
+</div>
+
+
+<div class="container">
+<ul class="social_footer_ul">
+<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+<div class="text-center mt-5">
+            <p style="color: #d6bd70" class="footer-alt mb-0 f-14">Copyrights © 2021 GetValue | All Rights Reserved</p>
+        </div>
+
+        <div class="container">
+<ul>
+<li><a href="#">Terms of Service| </a></li>
+<li><a href="#">Privacy Policy| </a></li>
+<li><a href="#">Cookies Policy</a></li>
+</ul>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- Crédit to https://bootsnipp.com/snippets/bxDBA -->
+</body>
+</html>
