@@ -219,7 +219,7 @@ section, .g {
 
 
 .main {
-  max-width: 1000px;
+  max-width:1000px;
   margin: auto;
 }
 
@@ -231,26 +231,26 @@ section, .g {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 2px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 25%;
+  float: ;
+  width: 5%;
 }
 
 /* Clear floats after rows */ 
 .row:after {
   content: "";
-  display: table;
+  display: ;
   clear: both;
 }
 
 /* Content */
 .content {
   background-color: white;
-  padding: 10px;
+  padding: 0px;
 }
 
 .carousel{
@@ -348,6 +348,140 @@ section, .g {
 {
   background-color:#ea4c89
 }
+.entry-c{
+  font-size: 20px;
+  padding-left: 20px;
+}
+.conta {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+.image {
+  flex-basis: 30%
+}
+
+.text {
+  font-size: 13px;
+  padding-left: 3px; 
+}
+
+.wrapper {
+  display: inline-flex;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 8px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 4px 5px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:767px)
 {
   .social-icons li.title
@@ -359,7 +493,7 @@ section, .g {
 }
 @media screen and (max-width: 900px) {
   .column {
-    width: 50%;
+    width: 90%;
   }
 }
 
@@ -410,10 +544,10 @@ section, .g {
                                                                     </select>
                                                     </div>
          <div class="col-md-6">
-                                                        <select class="form-control" id="blog_category">
-                                                            <option value="">Select Blog Category</option>
-                                                            <option value="">All</option>
-                                                            <option value="1">Blog</option><option value="2">Business/Investing</option><option value="3">Inspirations</option><option value="4">Self Help</option><option value="5">Online Programs & Training</option><option value="7">Personal Development</option><option value="8">Religion And Spirituality</option>                                                        </select>
+            <select class="form-control" id="blog_category">
+             <option value="">Select Blog Category</option>
+                       <option value="">All</option>
+         <option value="1">Blog</option><option value="2">Business/Investing</option><option value="3">Inspirations</option><option value="4">Self Help</option><option value="5">Online Programs & Training</option><option value="7">Personal Development</option><option value="8">Religion And Spirituality</option>                                                        </select>
                                                     </div>
         </div>
          <a onclick="submitSearchForm()" class="btn btn-go-search mine-color">   
@@ -520,30 +654,181 @@ talking about yourself all the time and everyone will</p>
                   <br>
                   <img src="https://www.getvalue.co/media/ads/affiliate.jpg">
 
-<h4 class="highlight-me">Recent Posts</h4>
 
 
 
 
+<div class="main">
+<h2>RECENT POSTS</h2>
+<br>
+ <div class="conta">
+      <div class="image">
+        <img src="https://www.getvalue.co/media/blog/soma_kozi_ya_bure_4:_ifahamu_mitindo_minne_ya_uandishi_01042021_08_48.png" alt="Image 1" style=" width:120%" >
+      </div>
+      <div class="text">
+        <h5><a style="color:black;" href="#">SOMA KOZI YA BURE 4: IFAHAMU MITINDO MINNE YA UANDISHI</a></h5>
+                      
+                      <ul >
+                       <li style="color: #d6bd70">Apr 01, 2021</li>
+                      </ul>
+      </div>
+    </div>
+</div>
+<br>
+ <div class="conta">
+      <div class="image">
+        <img src="https://www.getvalue.co/media/blog/soma_kozi_ya_bure_4:_ifahamu_mitindo_minne_ya_uandishi_01042021_08_48.png" alt="Image 1" style=" width:120%" >
+      </div>
+      <div class="text">
+        <h5><a style="color:black;" href="#">SOMA KOZI YA BURE 4: IFAHAMU MITINDO MINNE YA UANDISHI</a></h5>
+                      
+                      <ul >
+                       <li style="color: #d6bd70">Apr 01, 2021</li>
+                      </ul>
+      </div>
+    </div>
+</div>
+<br>
+
+ <div class="conta">
+      <div class="image">
+        <img src="https://www.getvalue.co/media/blog/soma_kozi_ya_bure_4:_ifahamu_mitindo_minne_ya_uandishi_01042021_08_48.png" alt="Image 1" style=" width:120%" >
+      </div>
+      <div class="text">
+        <h5><a style="color:black;" href="#">SOMA KOZI YA BURE 4: IFAHAMU MITINDO MINNE YA UANDISHI</a></h5>
+                      
+                      <ul >
+                       <li style="color: #d6bd70">Apr 01, 2021</li>
+                      </ul>
+      </div>
+    </div>
+</div>
+<br>
+ <div class="conta">
+      <div class="image">
+        <img src="https://www.getvalue.co/media/blog/soma_kozi_ya_bure_4:_ifahamu_mitindo_minne_ya_uandishi_01042021_08_48.png" alt="Image 1" style=" width:120%" >
+      </div>
+      <div class="text">
+        <h5><a style="color:black;" href="#">SOMA KOZI YA BURE 4: IFAHAMU MITINDO MINNE YA UANDISHI</a></h5>
+                      
+                      <ul >
+                       <li style="color: #d6bd70">Apr 01, 2021</li>
+                      </ul>
+      </div>
+    </div>
+</div>
+<br>
 
 
+ <div class="conta">
+      <div class="image">
+        <img src="https://www.getvalue.co/media/blog/soma_kozi_ya_bure_4:_ifahamu_mitindo_minne_ya_uandishi_01042021_08_48.png" alt="Image 1" style=" width:120%" >
+      </div>
+      <div class="text">
+        <h5><a style="color:black;" href="#">SOMA KOZI YA BURE 4: IFAHAMU MITINDO MINNE YA UANDISHI</a></h5>
+                      
+                      <ul >
+                       <li style="color: #d6bd70">Apr 01, 2021</li>
+                      </ul>
+      </div>
+    </div>
+</div>
+<br>
+ <div class="conta">
+      <div class="image">
+        <img src="https://www.getvalue.co/media/blog/soma_kozi_ya_bure_4:_ifahamu_mitindo_minne_ya_uandishi_01042021_08_48.png" alt="Image 1" style=" width:120%" >
+      </div>
+      <div class="text">
+        <h5><a style="color:black;" href="#">SOMA KOZI YA BURE 4: IFAHAMU MITINDO MINNE YA UANDISHI</a></h5>
+                      
+                      <ul >
+                       <li style="color: #d6bd70">Apr 01, 2021</li>
+                      </ul>
+      </div>
+    </div>
+</div>
+<br>
+<h3 class="highlight-me">Connect Socially</h3>
+<div class="wrapper">
+
+  <div class="icon facebook">
+    <div class="tooltip">Facebook</div>
+    <span><i class="fa fa-facebook-f"></i></span>
+  </div>
+  <div class="icon twitter">
+    <div class="tooltip">Twitter</div>
+    <span><i class="fa fa-twitter"></i></span>
+  </div>
+  
+  <div class="icon github">
+    <div class="tooltip">linkedIn</div>
+    <span><i class="fa fa-linkedin"></i></span>
+  </div>
+  <div class="icon instagram">
+    <div class="tooltip">Instagram</div>
+    <span><i class="fa fa-instagram"></i></span>
+  </div>
+  <div class="icon youtube">
+    <div class="tooltip">Youtube</div>
+    <span><i class="fa fa-youtube"></i></span>
+  </div>
+</div>
+<br>
+<br>
 
 
+<div class="main">
+<h2>POPULAR BOOKS</h2>
+<br>
+ <div class="conta">
+      <div class="image">
+        <img src="https://www.getvalue.co/media/products/nchi_ya_usambara_24112020_04_11.jpg" alt="Image 1" style=" width:120%" >
+      </div>
+      <div class="text">
+        <h5><a style="color:black;" href="#">NCHI YA USAMBARA</a></h5>
+                      
+                      <ul >
+                       <li style="color: #d6bd70">12,000 Tsh.</li>
+                      </ul>
+                      <br>
+                       <p>Sold by: <a href="#">Germano Mbelwa</a></p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div>
+    </div>
+</div>
+<br>
+ <div class="conta">
+      <div class="image">
+        <img src="https://www.getvalue.co/media/products/nchi_ya_usambara_24112020_04_11.jpg" alt="Image 1" style=" width:120%" >
+      </div>
+      <div class="text">
+        <h5><a style="color:black;" href="#">NCHI YA USAMBARA</a></h5>
+                      
+                      <ul >
+                       <li style="color: #d6bd70">12,000 Tsh.</li>
+                      </ul>
+                      <br>
+                       <p>Sold by: <a href="#">Lackson Tungaraza</a></p>
+      </div>
+    </div>
+</div>
+<br>
+ <div class="conta">
+      <div class="image">
+        <img src="https://www.getvalue.co/media/products/nchi_ya_usambara_24112020_04_11.jpg" alt="Image 1" style=" width:120%" >
+      </div>
+      <div class="text">
+        <h5><a style="color:black;" href="#">NCHI YA USAMBARA</a></h5>
+                      
+                      <ul >
+                       <li style="color: #d6bd70">12,000 Tsh.</li>
+                      </ul>
+                      <br>
+                       <p>Sold by: <a href="#">Sabas Patrick</a></p>
+      </div>
+    </div>
+</div>
+<br>
 
 
 
